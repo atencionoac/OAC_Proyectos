@@ -21,7 +21,7 @@ def main():
             st.session_state.df_master = cargar_y_unir()
         
         df = st.session_state.df_master
-        df.drop(columns=['External ID'], inplace=True)
+        # df.drop(columns=['External ID'], inplace=True)
 
         # --- BUSCADOR DINÁMICO ---
         st.subheader("🔍 Buscador en tiempo real")
